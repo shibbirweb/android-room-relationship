@@ -1,4 +1,4 @@
-package me.shibbir.onetoonerelationshipswithroom
+package me.shibbir.roomrelationship
 
 import org.junit.Test
 

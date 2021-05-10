@@ -1,14 +1,14 @@
-package me.shibbir.onetoonerelationshipswithroom
+package me.shibbir.roomrelationship
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import me.shibbir.onetoonerelationshipswithroom.entities.Director
-import me.shibbir.onetoonerelationshipswithroom.entities.School
-import me.shibbir.onetoonerelationshipswithroom.entities.Student
-import me.shibbir.onetoonerelationshipswithroom.entities.Subject
-import me.shibbir.onetoonerelationshipswithroom.entities.realations.StudentSubjectCrossRef
+import me.shibbir.roomrelationship.entities.Director
+import me.shibbir.roomrelationship.entities.School
+import me.shibbir.roomrelationship.entities.Student
+import me.shibbir.roomrelationship.entities.Subject
+import me.shibbir.roomrelationship.entities.realations.StudentSubjectCrossRef
 
 @Database(
     entities = [

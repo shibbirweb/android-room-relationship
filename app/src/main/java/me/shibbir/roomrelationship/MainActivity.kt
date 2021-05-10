@@ -1,14 +1,14 @@
-package me.shibbir.onetoonerelationshipswithroom
+package me.shibbir.roomrelationship
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.launch
-import me.shibbir.onetoonerelationshipswithroom.entities.Director
-import me.shibbir.onetoonerelationshipswithroom.entities.School
-import me.shibbir.onetoonerelationshipswithroom.entities.Student
-import me.shibbir.onetoonerelationshipswithroom.entities.Subject
-import me.shibbir.onetoonerelationshipswithroom.entities.realations.StudentSubjectCrossRef
+import me.shibbir.roomrelationship.entities.Director
+import me.shibbir.roomrelationship.entities.School
+import me.shibbir.roomrelationship.entities.Student
+import me.shibbir.roomrelationship.entities.Subject
+import me.shibbir.roomrelationship.entities.realations.StudentSubjectCrossRef
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -71,7 +71,7 @@ class MainActivity : AppCompatActivity() {
 
             val schoolWithStudents = dao.getSchoolWithStudents("Kotlin School")
 
-            
+
         }
     }
 }

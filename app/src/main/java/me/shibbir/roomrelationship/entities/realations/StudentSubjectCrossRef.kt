@@ -1,4 +1,4 @@
-package me.shibbir.onetoonerelationshipswithroom.entities.realations
+package me.shibbir.roomrelationship.entities.realations
 
 import androidx.room.Entity
 

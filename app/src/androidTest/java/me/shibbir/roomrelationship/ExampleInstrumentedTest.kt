@@ -1,4 +1,4 @@
-package me.shibbir.onetoonerelationshipswithroom
+package me.shibbir.roomrelationship
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("me.shibbir.onetoonerelationshipswithroom", appContext.packageName)
+        assertEquals("me.shibbir.roomrelationship", appContext.packageName)
     }
 }

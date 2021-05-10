@@ -1,11 +1,11 @@
-package me.shibbir.onetoonerelationshipswithroom
+package me.shibbir.roomrelationship
 
 import androidx.room.*
-import me.shibbir.onetoonerelationshipswithroom.entities.Director
-import me.shibbir.onetoonerelationshipswithroom.entities.School
-import me.shibbir.onetoonerelationshipswithroom.entities.Student
-import me.shibbir.onetoonerelationshipswithroom.entities.Subject
-import me.shibbir.onetoonerelationshipswithroom.entities.realations.*
+import me.shibbir.roomrelationship.entities.Director
+import me.shibbir.roomrelationship.entities.School
+import me.shibbir.roomrelationship.entities.Student
+import me.shibbir.roomrelationship.entities.Subject
+import me.shibbir.roomrelationship.entities.realations.*
 
 @Dao
 interface SchoolDao {

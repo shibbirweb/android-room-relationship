@@ -9,7 +9,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "me.shibbir.onetoonerelationshipswithroom"
+        applicationId 'me.shibbir.roomrelationship'
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
